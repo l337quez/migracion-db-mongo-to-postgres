@@ -1,0 +1,31 @@
+ * Eliminar Tx Faker de INH, todas fueron el mismo dia. son 7228 TX a borrar. Con amount = 1 y status =0
+ 
+ * Tx viejas con amount: 1 y status 0, eliminarlas
+ 
+ * Importante: Hay usuarios nivel cero con moneda, hay que cambiarlos a nivel 1. eso fue cuando se borro la base de datos entonces algunos usuarios hicieron pago movil y intonces se les acredito el dinero pero quedaron en statos 0
+
+ 
+ *  Preguntar a Lix sobre esto, creo que es algo de deposito por transferencia... acalarar esto, para modificarlo.(revisar si las 832 cuentas se  relacionan con user inh)
+    En account Number va la cuenta de INH, en vaucher Number poner el numero de accoun Number y quitar el codigo numerico que le pone lix a las tx.
+    Si Lix aprueba, entonces vaucher = vaucher, pero si rechaza vaucher  = codigo
+    
+* Hay numeros de cuentas faker, paraece que no son numeros de cuenta, sino vaucher number, parece que se relaciona con INH, esto tiene que ver con el parrafo anterior
+    
+    
+Aclaraciones de Lix: 
+    * un deposiro INH al usuario, eso no debe tener cuenta, lo que sale #cuenta es el vaucher.
+    * la tx que tiene vaucheres porque va al pote del INH
+    *  cuando sea un deposito o trasferecia desde INH el accountNumber es el umero de vaucher
+
+    
+
+* Todos los usuarios estan como bloqueados, el status original es en un dump, que se llama dump-reconversion-status-original.tar.gz, le di ese dump a rafa, entonces, de ese dum se debe sacar el lisado de los bloqueados, pendientes y aporbados y poner todo los stados como estaban antes
+
+* todas las tx con status 0 del usuario caja 5db500c49ec91700126c8a82, quiere decir que no se aprobo la comision porque la tx por la cualse genero la tx comision fue rechazada.
+
+
+###################################################3
+CORRECIONES QUE YA SE HICIERON A LA BASE DE DATOS
+
+1.- SE ELEIMINO 2344 TX CON AMOUNT 0 Y SATUS 1 DEL USER INH DEL DIA 01/03/2021
+2.-

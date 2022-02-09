@@ -1,0 +1,365 @@
+id,name,code,active,action_id,content_type_id,createdAt,updatedAt
+1,can create coin name,create_coin_name_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+2,can read coin name,read_coin_name_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+3,can update coin name,update_coin_name_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+4,can delete coin name,delete_coin_name_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+5,can create coin prefix,create_coin_prefix_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+6,can read coin prefix,read_coin_prefix_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+7,can update coin prefix,update_coin_prefix_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+8,can delete coin prefix,delete_coin_prefix_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+9,can create coin code,create_coin_code_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+10,can read coin code,read_coin_code_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+11,can update coin code,update_coin_code_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+12,can delete coin code,delete_coin_code_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+13,can create coin image,create_coin_image_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+14,can read coin image,read_coin_image_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+15,can update coin image,update_coin_image_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+16,can delete coin image,delete_coin_image_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+17,can create coin sell rate,create_coin_sell_rate_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+18,can read coin sell rate,read_coin_sell_rate_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+19,can update coin sell rate,update_coin_sell_rate_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+20,can delete coin sell rate,delete_coin_sell_rate_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+21,can create coin buy rate,create_coin_buy_rate_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+22,can read coin buy rate,read_coin_buy_rate_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+23,can update coin buy rate,update_coin_buy_rate_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+24,can delete coin buy rate,delete_coin_buy_rate_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+25,can create coin payment method,create_coin_payment_method_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+26,can read coin payment method,read_coin_payment_method_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+27,can update coin payment method,update_coin_payment_method_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+28,can delete coin payment method,delete_coin_payment_method_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+29,can create coin active,create_coin_active_ves,true,c,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+30,can read coin active,read_coin_active_ves,true,r,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+31,can update coin active,update_coin_active_ves,true,u,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+32,can delete coin active,delete_coin_active_ves,true,d,1,2021-10-06 22:07:33,2021-10-06 22:07:33
+33,can create coin name,create_coin_name_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+34,can read coin name,read_coin_name_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+35,can update coin name,update_coin_name_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+36,can delete coin name,delete_coin_name_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+37,can create coin prefix,create_coin_prefix_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+38,can read coin prefix,read_coin_prefix_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+39,can update coin prefix,update_coin_prefix_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+40,can delete coin prefix,delete_coin_prefix_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+41,can create coin code,create_coin_code_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+42,can read coin code,read_coin_code_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+43,can update coin code,update_coin_code_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+44,can delete coin code,delete_coin_code_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+45,can create coin image,create_coin_image_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+46,can read coin image,read_coin_image_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+47,can update coin image,update_coin_image_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+48,can delete coin image,delete_coin_image_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+49,can create coin sell rate,create_coin_sell_rate_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+50,can read coin sell rate,read_coin_sell_rate_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+51,can update coin sell rate,update_coin_sell_rate_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+52,can delete coin sell rate,delete_coin_sell_rate_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+53,can create coin buy rate,create_coin_buy_rate_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+54,can read coin buy rate,read_coin_buy_rate_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+55,can update coin buy rate,update_coin_buy_rate_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+56,can delete coin buy rate,delete_coin_buy_rate_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+57,can create coin payment method,create_coin_payment_method_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+58,can read coin payment method,read_coin_payment_method_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+59,can update coin payment method,update_coin_payment_method_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+60,can delete coin payment method,delete_coin_payment_method_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+61,can create coin active,create_coin_active_usd,true,c,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+62,can read coin active,read_coin_active_usd,true,r,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+63,can update coin active,update_coin_active_usd,true,u,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+64,can delete coin active,delete_coin_active_usd,true,d,2,2021-10-06 22:07:33,2021-10-06 22:07:33
+65,can create coin name,create_coin_name_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+66,can read coin name,read_coin_name_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+67,can update coin name,update_coin_name_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+68,can delete coin name,delete_coin_name_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+69,can create coin prefix,create_coin_prefix_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+70,can read coin prefix,read_coin_prefix_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+71,can update coin prefix,update_coin_prefix_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+72,can delete coin prefix,delete_coin_prefix_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+73,can create coin code,create_coin_code_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+74,can read coin code,read_coin_code_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+75,can update coin code,update_coin_code_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+76,can delete coin code,delete_coin_code_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+77,can create coin image,create_coin_image_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+78,can read coin image,read_coin_image_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+79,can update coin image,update_coin_image_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+80,can delete coin image,delete_coin_image_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+81,can create coin sell rate,create_coin_sell_rate_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+82,can read coin sell rate,read_coin_sell_rate_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+83,can update coin sell rate,update_coin_sell_rate_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+84,can delete coin sell rate,delete_coin_sell_rate_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+85,can create coin buy rate,create_coin_buy_rate_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+86,can read coin buy rate,read_coin_buy_rate_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+87,can update coin buy rate,update_coin_buy_rate_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+88,can delete coin buy rate,delete_coin_buy_rate_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+89,can create coin payment method,create_coin_payment_method_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+90,can read coin payment method,read_coin_payment_method_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+91,can update coin payment method,update_coin_payment_method_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+92,can delete coin payment method,delete_coin_payment_method_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+93,can create coin active,create_coin_active_eur,true,c,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+94,can read coin active,read_coin_active_eur,true,r,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+95,can update coin active,update_coin_active_eur,true,u,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+96,can delete coin active,delete_coin_active_eur,true,d,3,2021-10-06 22:07:33,2021-10-06 22:07:33
+97,can create coin name,create_coin_name_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+98,can read coin name,read_coin_name_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+99,can update coin name,update_coin_name_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+100,can delete coin name,delete_coin_name_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+101,can create coin prefix,create_coin_prefix_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+102,can read coin prefix,read_coin_prefix_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+103,can update coin prefix,update_coin_prefix_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+104,can delete coin prefix,delete_coin_prefix_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+105,can create coin code,create_coin_code_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+106,can read coin code,read_coin_code_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+107,can update coin code,update_coin_code_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+108,can delete coin code,delete_coin_code_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+109,can create coin image,create_coin_image_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+110,can read coin image,read_coin_image_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+111,can update coin image,update_coin_image_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+112,can delete coin image,delete_coin_image_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+113,can create coin sell rate,create_coin_sell_rate_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+114,can read coin sell rate,read_coin_sell_rate_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+115,can update coin sell rate,update_coin_sell_rate_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+116,can delete coin sell rate,delete_coin_sell_rate_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+117,can create coin buy rate,create_coin_buy_rate_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+118,can read coin buy rate,read_coin_buy_rate_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+119,can update coin buy rate,update_coin_buy_rate_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+120,can delete coin buy rate,delete_coin_buy_rate_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+121,can create coin payment method,create_coin_payment_method_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+122,can read coin payment method,read_coin_payment_method_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+123,can update coin payment method,update_coin_payment_method_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+124,can delete coin payment method,delete_coin_payment_method_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+125,can create coin active,create_coin_active_clp,true,c,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+126,can read coin active,read_coin_active_clp,true,r,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+127,can update coin active,update_coin_active_clp,true,u,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+128,can delete coin active,delete_coin_active_clp,true,d,4,2021-10-06 22:07:33,2021-10-06 22:07:33
+129,can create coin name,create_coin_name_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+130,can read coin name,read_coin_name_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+131,can update coin name,update_coin_name_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+132,can delete coin name,delete_coin_name_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+133,can create coin prefix,create_coin_prefix_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+134,can read coin prefix,read_coin_prefix_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+135,can update coin prefix,update_coin_prefix_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+136,can delete coin prefix,delete_coin_prefix_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+137,can create coin code,create_coin_code_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+138,can read coin code,read_coin_code_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+139,can update coin code,update_coin_code_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+140,can delete coin code,delete_coin_code_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+141,can create coin image,create_coin_image_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+142,can read coin image,read_coin_image_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+143,can update coin image,update_coin_image_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+144,can delete coin image,delete_coin_image_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+145,can create coin sell rate,create_coin_sell_rate_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+146,can read coin sell rate,read_coin_sell_rate_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+147,can update coin sell rate,update_coin_sell_rate_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+148,can delete coin sell rate,delete_coin_sell_rate_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+149,can create coin buy rate,create_coin_buy_rate_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+150,can read coin buy rate,read_coin_buy_rate_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+151,can update coin buy rate,update_coin_buy_rate_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+152,can delete coin buy rate,delete_coin_buy_rate_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+153,can create coin payment method,create_coin_payment_method_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+154,can read coin payment method,read_coin_payment_method_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+155,can update coin payment method,update_coin_payment_method_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+156,can delete coin payment method,delete_coin_payment_method_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+157,can create coin active,create_coin_active_ars,true,c,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+158,can read coin active,read_coin_active_ars,true,r,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+159,can update coin active,update_coin_active_ars,true,u,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+160,can delete coin active,delete_coin_active_ars,true,d,5,2021-10-06 22:07:33,2021-10-06 22:07:33
+161,can create coin name,create_coin_name_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+162,can read coin name,read_coin_name_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+163,can update coin name,update_coin_name_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+164,can delete coin name,delete_coin_name_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+165,can create coin prefix,create_coin_prefix_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+166,can read coin prefix,read_coin_prefix_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+167,can update coin prefix,update_coin_prefix_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+168,can delete coin prefix,delete_coin_prefix_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+169,can create coin code,create_coin_code_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+170,can read coin code,read_coin_code_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+171,can update coin code,update_coin_code_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+172,can delete coin code,delete_coin_code_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+173,can create coin image,create_coin_image_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+174,can read coin image,read_coin_image_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+175,can update coin image,update_coin_image_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+176,can delete coin image,delete_coin_image_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+177,can create coin sell rate,create_coin_sell_rate_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+178,can read coin sell rate,read_coin_sell_rate_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+179,can update coin sell rate,update_coin_sell_rate_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+180,can delete coin sell rate,delete_coin_sell_rate_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+181,can create coin buy rate,create_coin_buy_rate_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+182,can read coin buy rate,read_coin_buy_rate_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+183,can update coin buy rate,update_coin_buy_rate_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+184,can delete coin buy rate,delete_coin_buy_rate_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+185,can create coin payment method,create_coin_payment_method_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+186,can read coin payment method,read_coin_payment_method_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+187,can update coin payment method,update_coin_payment_method_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+188,can delete coin payment method,delete_coin_payment_method_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+189,can create coin active,create_coin_active_btc,true,c,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+190,can read coin active,read_coin_active_btc,true,r,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+191,can update coin active,update_coin_active_btc,true,u,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+192,can delete coin active,delete_coin_active_btc,true,d,6,2021-10-06 22:07:33,2021-10-06 22:07:33
+193,can create coin name,create_coin_name_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+194,can read coin name,read_coin_name_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+195,can update coin name,update_coin_name_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+196,can delete coin name,delete_coin_name_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+197,can create coin prefix,create_coin_prefix_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+198,can read coin prefix,read_coin_prefix_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+199,can update coin prefix,update_coin_prefix_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+200,can delete coin prefix,delete_coin_prefix_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+201,can create coin code,create_coin_code_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+202,can read coin code,read_coin_code_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+203,can update coin code,update_coin_code_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+204,can delete coin code,delete_coin_code_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+205,can create coin image,create_coin_image_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+206,can read coin image,read_coin_image_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+207,can update coin image,update_coin_image_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+208,can delete coin image,delete_coin_image_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+209,can create coin sell rate,create_coin_sell_rate_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+210,can read coin sell rate,read_coin_sell_rate_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+211,can update coin sell rate,update_coin_sell_rate_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+212,can delete coin sell rate,delete_coin_sell_rate_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+213,can create coin buy rate,create_coin_buy_rate_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+214,can read coin buy rate,read_coin_buy_rate_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+215,can update coin buy rate,update_coin_buy_rate_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+216,can delete coin buy rate,delete_coin_buy_rate_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+217,can create coin payment method,create_coin_payment_method_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+218,can read coin payment method,read_coin_payment_method_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+219,can update coin payment method,update_coin_payment_method_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+220,can delete coin payment method,delete_coin_payment_method_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+221,can create coin active,create_coin_active_eth,true,c,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+222,can read coin active,read_coin_active_eth,true,r,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+223,can update coin active,update_coin_active_eth,true,u,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+224,can delete coin active,delete_coin_active_eth,true,d,7,2021-10-06 22:07:33,2021-10-06 22:07:33
+225,can create coin name,create_coin_name_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+226,can read coin name,read_coin_name_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+227,can update coin name,update_coin_name_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+228,can delete coin name,delete_coin_name_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+229,can create coin prefix,create_coin_prefix_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+230,can read coin prefix,read_coin_prefix_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+231,can update coin prefix,update_coin_prefix_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+232,can delete coin prefix,delete_coin_prefix_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+233,can create coin code,create_coin_code_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+234,can read coin code,read_coin_code_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+235,can update coin code,update_coin_code_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+236,can delete coin code,delete_coin_code_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+237,can create coin image,create_coin_image_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+238,can read coin image,read_coin_image_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+239,can update coin image,update_coin_image_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+240,can delete coin image,delete_coin_image_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+241,can create coin sell rate,create_coin_sell_rate_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+242,can read coin sell rate,read_coin_sell_rate_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+243,can update coin sell rate,update_coin_sell_rate_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+244,can delete coin sell rate,delete_coin_sell_rate_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+245,can create coin buy rate,create_coin_buy_rate_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+246,can read coin buy rate,read_coin_buy_rate_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+247,can update coin buy rate,update_coin_buy_rate_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+248,can delete coin buy rate,delete_coin_buy_rate_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+249,can create coin payment method,create_coin_payment_method_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+250,can read coin payment method,read_coin_payment_method_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+251,can update coin payment method,update_coin_payment_method_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+252,can delete coin payment method,delete_coin_payment_method_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+253,can create coin active,create_coin_active_ltc,true,c,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+254,can read coin active,read_coin_active_ltc,true,r,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+255,can update coin active,update_coin_active_ltc,true,u,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+256,can delete coin active,delete_coin_active_ltc,true,d,8,2021-10-06 22:07:33,2021-10-06 22:07:33
+257,can create coin name,create_coin_name_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+258,can read coin name,read_coin_name_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+259,can update coin name,update_coin_name_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+260,can delete coin name,delete_coin_name_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+261,can create coin prefix,create_coin_prefix_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+262,can read coin prefix,read_coin_prefix_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+263,can update coin prefix,update_coin_prefix_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+264,can delete coin prefix,delete_coin_prefix_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+265,can create coin code,create_coin_code_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+266,can read coin code,read_coin_code_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+267,can update coin code,update_coin_code_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+268,can delete coin code,delete_coin_code_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+269,can create coin image,create_coin_image_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+270,can read coin image,read_coin_image_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+271,can update coin image,update_coin_image_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+272,can delete coin image,delete_coin_image_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+273,can create coin sell rate,create_coin_sell_rate_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+274,can read coin sell rate,read_coin_sell_rate_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+275,can update coin sell rate,update_coin_sell_rate_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+276,can delete coin sell rate,delete_coin_sell_rate_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+277,can create coin buy rate,create_coin_buy_rate_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+278,can read coin buy rate,read_coin_buy_rate_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+279,can update coin buy rate,update_coin_buy_rate_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+280,can delete coin buy rate,delete_coin_buy_rate_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+281,can create coin payment method,create_coin_payment_method_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+282,can read coin payment method,read_coin_payment_method_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+283,can update coin payment method,update_coin_payment_method_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+284,can delete coin payment method,delete_coin_payment_method_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+285,can create coin active,create_coin_active_dash,true,c,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+286,can read coin active,read_coin_active_dash,true,r,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+287,can update coin active,update_coin_active_dash,true,u,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+288,can delete coin active,delete_coin_active_dash,true,d,9,2021-10-06 22:07:33,2021-10-06 22:07:33
+289,can create coin name,create_coin_name_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+290,can read coin name,read_coin_name_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+291,can update coin name,update_coin_name_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+292,can delete coin name,delete_coin_name_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+293,can create coin prefix,create_coin_prefix_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+294,can read coin prefix,read_coin_prefix_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+295,can update coin prefix,update_coin_prefix_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+296,can delete coin prefix,delete_coin_prefix_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+297,can create coin code,create_coin_code_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+298,can read coin code,read_coin_code_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+299,can update coin code,update_coin_code_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+300,can delete coin code,delete_coin_code_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+301,can create coin image,create_coin_image_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+302,can read coin image,read_coin_image_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+303,can update coin image,update_coin_image_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+304,can delete coin image,delete_coin_image_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+305,can create coin sell rate,create_coin_sell_rate_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+306,can read coin sell rate,read_coin_sell_rate_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+307,can update coin sell rate,update_coin_sell_rate_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+308,can delete coin sell rate,delete_coin_sell_rate_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+309,can create coin buy rate,create_coin_buy_rate_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+310,can read coin buy rate,read_coin_buy_rate_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+311,can update coin buy rate,update_coin_buy_rate_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+312,can delete coin buy rate,delete_coin_buy_rate_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+313,can create coin payment method,create_coin_payment_method_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+314,can read coin payment method,read_coin_payment_method_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+315,can update coin payment method,update_coin_payment_method_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+316,can delete coin payment method,delete_coin_payment_method_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+317,can create coin active,create_coin_active_ptr,true,c,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+318,can read coin active,read_coin_active_ptr,true,r,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+319,can update coin active,update_coin_active_ptr,true,u,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+320,can delete coin active,delete_coin_active_ptr,true,d,10,2021-10-06 22:07:33,2021-10-06 22:07:33
+321,can create payment method name,create_payment_method_name,true,c,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+322,can read payment method name,read_payment_method_name,true,r,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+323,can update payment method name,update_payment_method_name,true,u,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+324,can delete payment method name,delete_payment_method_name,true,d,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+325,can create payment method active,create_payment_method_active,true,c,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+326,can read payment method active,read_payment_method_active,true,r,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+327,can update payment method active,update_payment_method_active,true,u,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+328,can delete payment method active,delete_payment_method_active,true,d,11,2021-10-06 22:07:33,2021-10-06 22:07:33
+329,can create user name,create_user_name,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+330,can read user name,read_user_name,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+331,can update user name,read_update_name,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+332,can delete user name,read_delete_name,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+333,can create user password,create_user_password,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+334,can read user password,read_user_password,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+335,can update user password,read_update_password,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+336,can delete user password,read_delete_password,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+337,can create user role_id,create_user_role_id,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+338,can read user role_id,read_user_role_id,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+339,can update user role_id,read_update_role_id,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+340,can delete user role_id,read_delete_role_id,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+341,can create user tier,create_user_tier,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+342,can read user tier,read_user_tier,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+343,can update user tier,read_update_tier,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+344,can delete user tier,read_delete_tier,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+345,can create user auth_id,create_user_auth_id,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+346,can read user auth_id,read_user_auth_id,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+347,can update user auth_id,read_update_auth_id,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+348,can delete user auth_id,read_delete_auth_id,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+349,can create user uu_id,create_user_uu_id,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+350,can read user uu_id,read_user_uu_id,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+351,can update user uu_id,read_update_uu_id,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+352,can delete user uu_id,read_delete_uu_id,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+353,can create user active,create_user_active,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+354,can read user active,read_user_active,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+355,can update user active,read_update_active,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+356,can delete user active,read_delete_active,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+357,can create user status_id,create_user_status_id,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+358,can read user status_id,read_user_status_id,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+359,can update user status_id,read_update_status_id,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+360,can delete user status_id,read_delete_status_id,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+361,can create user last_login,create_user_last_login,true,c,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+362,can read user last_login,read_user_last_login,true,r,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+363,can update user last_login,read_update_last_login,true,u,12,2021-10-06 22:07:33,2021-10-06 22:07:33
+364,can delete user last_login,read_delete_last_login,true,d,12,2021-10-06 22:07:33,2021-10-06 22:07:33

@@ -1,0 +1,129 @@
+Nota: el id de postgre y el updatedAt, createdAt  los crea solos sequelize CLI. Tambien le agrega una "s" al final del nombre.
+Mini tutorial de sequelize
+
+*** TABLA TX_STATUS   0 pendign, -1 reported, -2 rejected, 1 user_approved, 2 approved
+
+npx sequelize model:generate --name Tx_status --attributes name:string,description:string,active:boolean
+
+
+** TABLE PROFILE BUSSINES CLIENT
+npx sequelize model:generate --name profile_bussines_client --attributes profile_id:integer,bussines_id:integer,active:boolean,endAt:date            
+
+
+** TABLE FEE
+npx sequelize model:generate --name fee --attributes tx_type_id:integer,payment_method_id:integer,country_id:integer,coin_prefix:string,percentage:double,active:boolean,createdBy:integer,updateBy:integer
+
+
+** TABLE GROUP FAVORITES
+npx sequelize model:generate --name group_favorite --attributes name:string,createdBy:integer,updateBy:integer,active:boolean,endAt:date
+
+** TABLE FAVORITES
+npx sequelize model:generate --name favorite --attributes group_favorite_id:integer,profile_id:integer,active:boolean,endAt:date 
+
+
+    
+
+
+
+
+** TABLE BASE COIN
+npx sequelize model:generate --name Base_coin --attributes startDate:date,endDate:date
+
+
+*** TABLA TX TYPE
+npx sequelize model:generate --name Tx_type --attributes name:string,active:boolean,endAt:date
+
+
+
+*** TABLA USER   
+
+npx sequelize model:generate --name Status_user --attributes name:string,active:boolean,endAt:date
+
+
+
+*** TABLA TABLES   
+
+npx sequelize model:generate --name Table --attributes name:string,active:boolean,endAt:date
+
+
+
+*** TABLA PROFILE OFFICE   
+
+npx sequelize model:generate --name Profile_office --attributes active:boolean,endAt:date
+
+
+
+*** TABLA TYPE PROFILE 
+
+npx sequelize model:generate --name Type_profile --attributes name:string,description:string,active:boolean,endAt:date
+
+
+
+*** COLECCCION TX  CRIPTO  
+
+npx sequelize model:generate --name Tx_cripto --attributes profile_id:integer,payment_method_id:integer,coin_id:integer,status_tx_id:integer,createdBy:integer,updatedBy:integer,address:string,hash:string,amount:double,reference_number:string,notes:string,type:enum:'{deposit,withdraw}'
+
+
+
+
+*** COLECCCION TX   FIAT  
+
+npx sequelize model:generate --name Tx_fiat --attributes profile_id:integer,payment_method_id:integer,coin_id:integer,status_tx_id:integer,createdBy:integer,updatedBy:integer,amount:double,reference_number:string,notes:string,type:enum:'{deposit,withdraw}'
+
+
+
+
+*** COLECCCION TX CHANGE   (no tiene metodo de pago, ni numero de refenrecia)
+
+npx sequelize model:generate --name Tx_change --attributes profile_id:integer,coin_id:integer,status_tx_id:integer,createdBy:integer,updatedBy:integer,amount:double,notes:string,to_coin_id:integer,to_coin_amount:double
+
+
+
+*** TX SALDO VEINTE
+
+npx sequelize model:generate --name Tx_veinte --attributes profile_id:integer,payment_method_id:integer,coin_id:integer,status_tx_id:integer,createdBy:integer,updatedBy:integer,amount:double,reference_number:string,notes:string,type:enum:'{deposit,withdraw}',id_profile_veinte:integer
+
+
+
+
+*** BANK BRANCH (SUCURSALES DEL BANCO)
+
+npx sequelize model:generate --name Bank_branch --attributes bank_id:integer,address:string
+
+
+
+
+
+###################################################################################
+*** QUE HACER DESPUES DE CREAR LAS TABLAS
+
+
+cuando se usa el as: ? --> se usa en hasmany, pero porque ?
+
+
+
+* En los modelos creados hay una funcion llamada static associate(models) 
+
+** Usando el belongsTo, le pertenece    (Uno a Uno)
+
+    Por ejemplo si estamos en la tabla KYC, decimos a KYC le pertenece (belongsTo) un modelo de Address
+        Kyc.belongsTo(models.Address, {
+        foreignKey: 'address_id',
+        });
+
+** Usando hasManny (Uno a muchos)
+Esto nos indica que un profile puede tener varios Kyc.
+
+    Kyc.hasMany(models.Profile, {
+      foreignKey: 'kyc_id',
+    });
+
+
+** Usando belongsToMany (Muchos a muchos) 
+Cuando hay una relacion de muchos a muchos se debe crear una tabla pivote, en este caso la tabla pivote es Profile
+
+    Kyc.belongsToMany(models.User, { 
+      through: 'Profile',               
+      foreignKey: 'kyc_id',
+      otherKey: 'user _id'
+    });

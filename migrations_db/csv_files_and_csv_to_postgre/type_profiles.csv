@@ -1,0 +1,4 @@
+id,name,description,endAt,active,createdAt,updatedAt
+1,natural,La persona natural se puede entender como aquel ser humano que desea desempeñar y ejercer obligaciones a título personal.,,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+2,juridico,"Es una sociedad conformada por una o más personas, capaz de ejercer derechos y contraer obligaciones, la cual puede ser representada de manera judicial o extrajudicialmente",,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+3,empleado,"persona que brinda sus servicios a cambio de un salario por parte de un empleador. Así, los detalles de este vínculo son definidos en un contrato",,true,2021-10-06 22:07:33,2021-10-06 22:07:33

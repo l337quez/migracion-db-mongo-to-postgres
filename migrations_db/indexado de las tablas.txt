@@ -1,0 +1,242 @@
+Son 44 Tablas en total. 
+
+OJO ---------> No se han analizado las tablas POS
+
+
+##########  Papa mayor Role ***
+
+* Tabla Role_permission     ---> Ya se indexo en el modelo de sequelize, esta como ejemplo ✔
+    id
+    
+* Tabla Profile               --> Indexado ✔
+    id
+    user_id
+    kyc_id
+    role_id
+    type_profile_id
+  
+    
+* Tabla user                    --> Indexado ✔
+    id
+    auth_id
+    uu_id
+    tier
+    
+* Tabla Account                 --> Indexado ✔
+    id
+    bank_id (Victor recominda hacer una particion, para que busque por banco, revisar porque se debe automatizar cada banco creado, deb ser una nueva particion)
+    type_account_id
+    profile_id
+    
+* Tabla Banks
+    id
+    country_id (victor recomienda que sea una particion)
+    
+* Tabla Favorites
+    id
+    group_favorite_id
+    profile_id
+    profile_client_id
+
+    
+* Tabla Tx_veintes
+    id
+    profile_id
+    tx_type_id
+    tx_status_id
+    pay,emt_method_id
+    coin_id
+
+    
+* Tabla Profile_offices
+    id
+    profile_id
+    office_id
+    
+
+* Tabla Tx_criptos
+    id
+    profile_id
+    tx_type_id
+    tx_status_id
+    payment_method_id
+    coin_id
+    createdAt (particion por año)
+
+* Tabla Tx_fiat   
+    id
+    profile_id
+    tx_type_id
+    tx_status_id
+    payment_method_id
+    coin_id
+    createdAt (particion por año)
+    
+* Tabla Tx_change   
+    id
+    profile_id
+    tx_status_id
+    coin_id
+    createdAt (particion por año)
+    
+* Tabla Type profiles
+    id
+
+* Tabla Profile Busisnes clientes
+    id
+    profile_id
+    business_id
+    
+
+* Tabla KYC    
+    id
+    birt_countr_id
+    address_id
+    type_kyc_id
+    dni
+    
+    
+* Tabla Permission
+    id
+    action_prefix
+    permiss_content_type_id
+    table_id
+    Tx  
+    
+* Tabla Status_users
+    id
+
+* Tabla Pos_Users
+    id
+    profile_id
+    
+* Tabla countries
+    id
+    
+    
+* Tabla Country Coin Payment Method
+    id
+    country_id
+    coin_payment_method_id
+    
+    
+* Tabla Actions
+    id
+
+* Tabla Permissions_content_types
+    id
+  
+* Tabla coins   
+    id
+    type_coin_id
+  
+* Tabla type_coins
+    id
+
+* Tabla balances
+    id
+    coin_id
+    
+* Table rate  (como esto es una tabla como estatica que solo se actualizan los campos, entonce no vale ponerle una particion en createdAt)        
+    id 
+    coin_type
+    coin_id
+    coin_base_id
+    
+* Table profile_balances
+    (falta agregar el id)
+    profile_d
+    balance_id
+    
+* states
+    id
+    
+*  address
+    id
+    state_id
+
+* type_kycs
+    id
+    
+* type_account
+    id
+
+* Table coin Pyment Method  
+    id
+    coind_id
+    pyment_method_id
+    
+* Table payment_methods
+    id
+    
+* Tabla Businesses
+    id
+    address_id
+    kyc_id
+
+    
+* Table Offices
+    id
+    busdiness_id
+    address_id
+
+* Table Offece coins
+    id
+    office_id
+    coind_id
+    
+
+* Tabla Bank_coin
+    id
+    bank_id
+    coin_id
+
+* bank Tx_veintes
+    id
+    bank_id
+    coin_id
+
+* Tx type
+    id
+    
+* Tx statuses
+    id
+    
+* Bank branch
+    id
+    banck_id
+    
+* Table Fees
+    id
+    tx_type_id
+    payment_method_id
+
+* base coins
+    id
+    coin_id
+    startDate
+    
+    
+####################################
+ARREGLOS:
+
+* En la tabla Role_permission el campo permission_id, ponerlo como array                                             (LISTO)
+* Eliminar role_id en la tabla user                                                                                  (LISTO)
+* Arreglar que los fk esten de primeros en la tabla accounts                                                         (LISTO)
+* subir el fk al principio de a tabla banks                                                                          (LISTO)
+* BaseCoins esta como camelsKeys ponerlo como snack keys                                                             (LISTO)
+* en la tabla tx_change quitar la relacion de createBy y updatedBy con profile                                      (LISTO)
+* ponerle comentario a la columna tx_status_id en las tablas para que sepa que es un status para la tx solamente.   (LISTO)
+* en la tabla kyc subir los campos fk a principio de la tabala                                                      (LISTO)
+* en la tabla permission pone los campos con llave foranea de primeros en la tabla                                  (LISTO)
+* en la tabla coins subir la fk al principio de la tabla                                                            (LISTO)
+* Muy rraro profile_balances no tiene el campo id. hay que ponerle ese campo                                        (LISTO)
+* en states subir la fk al principio de la tabla                                                                    (LISTO)
+* subir los fk al principio de la tabla de la tabla Businesses. arreglar business name 40 y phone 20                (LISTO)
+* subir las llaves fk al principio de la tabla offices                                                              (LISTO)
+* office_coin no tiene el id de la tabla                                                                            (LISTO)
+* bank_coin le falta el id de la tabla                                                                               (LISTO)
+* en tx_type al nombre limitarlo por 40 caracteres                                                                  (LISTO)
+* cambiar el limite de caracteres del campo nombre en la tabla tx_statuses                                          (LISTO)
+* en la tabla pos_users, quitar user_id y poner profile_id, quitar la fk de updatedAt y poner endAt
+* cuando abrimos el manejador de base de datos y vemos ls tablas, no estan en orden porque unas comienzan con mayuscula y otras con minuscula, hay que ordenar eso.

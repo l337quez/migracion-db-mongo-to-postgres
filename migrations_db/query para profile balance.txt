@@ -1,0 +1,10 @@
+ 
+ALTER TABLE profile_balances DISABLE TRIGGER ALL; 
+ALTER TABLE profile_balances
+    ALTER COLUMN balance_id
+    DROP DEFAULT;
+ALTER TABLE profile_balances
+    ALTER COLUMN balance_id TYPE INTEGER[]
+    USING array[balance_id]::INTEGER[];
+ALTER TABLE profile_balances
+    ALTER COLUMN balance_id SET DEFAULT '{}';

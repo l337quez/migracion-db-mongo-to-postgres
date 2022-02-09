@@ -1,0 +1,6 @@
+name,description,active,createdAt,updatedAt
+User,Rol de usuarios estándar,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+admin-super,Rol de super administradores,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+admin-venezuela,Rol de administrador Venezuela,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+admin-chile,Rol de administrador Chile,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+admin-argentina,Rol de administrador Argentina,true,2021-10-06 22:07:33,2021-10-06 22:07:33

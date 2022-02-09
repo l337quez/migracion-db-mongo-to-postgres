@@ -1,0 +1,4 @@
+id,description,active,createdAt,updatedAt
+1,approved,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+2,pending,true,2021-10-06 22:07:33,2021-10-06 22:07:33
+3,blocked,true,2021-10-06 22:07:33,2021-10-06 22:07:33

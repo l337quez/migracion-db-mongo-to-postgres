@@ -1,0 +1,11 @@
+prefix,code,name,image,type_coin_id,active,createdAt,updatedAt
+Bs,VES,Bolívares Soberanos,,1,true,1633572453,1633572453
+฿,BTC,Bitcoin,,2,true,1633572453,1633572453
+Ł,LTC,Litecoin,,2,true,1633572453,1633572453
+D,DASH,Dash,,2,true,1633572453,1633572453
+₽,PTR,Petro,,2,true,1633572453,1633572453
+$,USD,Dólares,,1,true,1633572453,1633572453
+€,EUR,Euros,,1,true,1633572453,1633572453
+$ar,ARS,Pesos Argentinos,,1,true,1633572453,1633572453
+$chi,CLP,Pesos Chilenos,,1,true,1633572453,1633572453
+Ξ,BTC,Ethereum,,2,false,1633572453,1633572453

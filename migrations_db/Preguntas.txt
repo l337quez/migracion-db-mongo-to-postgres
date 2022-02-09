@@ -1,0 +1,41 @@
+Buenas tengo una serie de preguntas sobre la DB de Mongo en Backend Services. Son bastantes tablas las que hay que llenar. Ya he llenado la mitad, pero hay cosas que no conozco, prefiero preguntar, asi en algunos caso este indicando la respuesta. Si alguien me puede ayudar le agradecería.
+
+Tambien hay cosas que voy asumir y necesito mas que todo, que Nicole las apruebe. 
+Antes quiero saber para que se usa paybridge y para que se usa tx. hay 2 colecciones una llamada tx (transaciones) y otra paybridgetx
+
+1. Tabla actions
+    columnas --> id, name, active, "createdAt", "updatedAt"
+    mi opinion: Yo asumo que los name seran, get, post, put, delete, pero no se si tambien list o cual otro.
+    
+    
+2. Tabla bank_coin
+    columnas --> bank_id, coin_id, "createdAt", "updatedAt"
+    mi opinion: NO he visto bancos de moneda no fiat. eso lo he visto en la DB de Mongo. El unico campo que desconozco es bank_id. Pero la tabla de banks
+                ya la monte, es decir hay y solo salieron 3 bancos de esa coleccion. quiza alguno de esos bancos trabaja con cryptomonedas, esa info no la tengo.
+    
+3. Tabla Balances
+    columnas --> amount, amount_with_draws, amount_deposits, daily_amount, montly_amount, montly_change_amount, coin_id, "createdAt", "updatedAt"
+	mi opinion: Yo creo que esta tabla le falta el id_user o algo asi. Porque de donde saco esa informacion? y siendo asi supongo que debo sacar esa informacion           de tx
+	
+        {
+            "_id": {
+                "$oid": "5e649d280996949e3f249e7f"
+            },
+            "userId": {
+                "$oid": "5db508949ec91700126c8aa0"
+            },
+            "type": "deposit",
+            "paymentMethodId": {
+                "$oid": "5eae4720c166f50df7da69ba"
+            },
+            "coinId": {
+                "$oid": "5db500c49ec91700126c8a82"
+            },
+            "amount": 912391249,
+            "status": 2,
+            "createdAt": {
+                "$date": "2019-10-27T04:34:10.839Z"
+            }
+        }
+        
+        mi opinion:  Me di cuenta que algunos usuarios, coleccion user, tienen un campo de tipo array llamado coinsOwed y estan varios datos que van en esa tabla al parecer si es es .....
